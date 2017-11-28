@@ -420,7 +420,7 @@ namespace InpBot
 
             discord.ExecuteAndWait(async () =>
 			{
-				await discord.Connect("MzQzODkyMTUxMjUzNDY3MTQ3.DGlfcg.wEU9IABOhvnwFm0Sya4_Zglo7KU", TokenType.Bot);
+				await discord.Connect("", TokenType.Bot);
 			});
 		}
 
